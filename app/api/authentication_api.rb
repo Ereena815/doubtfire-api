@@ -4,7 +4,7 @@ require 'onelogin/ruby-saml'
 require 'entities/user_entity'
 
 #
-# Provides the authentication API for Doubtfire.
+# Provide the authentication API for Doubtfire.
 # Users can sign in via email and password and receive an auth token
 # that can be used with other API calls.
 #
