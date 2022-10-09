@@ -124,7 +124,7 @@ module AuthenticationHelpers
   end
 
   #
-  # Returns true if using database devise auth strategy
+  # Returns tru if using database devise auth strategy
   #
   def db_auth?
     Doubtfire::Application.config.auth_method == :database
